@@ -1,0 +1,59 @@
+.modal {
+    position: fixed;
+    top: 0%;
+    display: none;
+    overflow: hidden;
+    width: 100%;
+    z-index: 1050;
+    height: 100%;
+    padding: 20px 15px 30px 15px;
+    &__titlee {
+        font-size: 33px;
+        line-height: 100%;
+        color: wheat;
+        margin-left: 10px;
+        margin-bottom: 32px;
+    }
+    &__dialog {
+        max-width: 500px;
+        margin: 40 auto;
+    }
+    &__content {
+        position: relative;
+        padding-top: 65px;
+        padding-left: 30px;
+        width: 75%;
+        overflow-y: auto;
+        background-color: #250303;
+        opacity: 0.9;
+        border: 2px solid black;
+        height: 380px;
+    }
+    &__title {
+        font-size: 20px;
+        color: white;
+        margin-bottom: 20px;
+    }
+    &__input {
+        opacity: 0.4;
+        margin-bottom: 40px;
+        width: 170px;
+    }
+    &__button {
+        width: 200px;
+        height: 40px;
+        margin-left: 61px;
+        margin-top: 30px;
+        background-color: wheat;
+        color: black;
+    }
+    &__preinput {
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+    }
+}
+
+#last {
+    margin-top: 60px;
+}

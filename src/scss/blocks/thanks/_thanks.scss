@@ -1,0 +1,17 @@
+.thanks {
+    position: fixed;
+    display: none;
+    top: 12%;
+    left: 40%;
+    width: 310px;
+    height: 142px;
+    background-color: #250303;
+    opacity: 0.9;
+    border: 2px solid black;
+    &__title {
+        margin-top: 23px;
+        margin-left: 21px;
+        font-size: 27px;
+        color: wheat;
+    }
+}

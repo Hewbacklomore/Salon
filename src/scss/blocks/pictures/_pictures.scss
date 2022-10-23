@@ -1,0 +1,124 @@
+.pictures {
+    position: relative;
+    background: #111111;
+    min-height: 1200px;
+    padding-top: 115px;
+    &__box {
+        position: absolute;
+        width: 350px;
+        height: 283px;
+        border: 1px solid #CDAA7D;
+        margin-top: -14px;
+        margin-left: 58px;
+        opacity: 0.5;
+    }
+    &__image {
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        grid-template-rows: 200px 200px;
+        grid-auto-rows: 300px;
+        grid-gap: 118px;
+        grid-row-gap: 211px
+    }
+    &__text {
+        margin-top: 30px;
+        font-size: 27px;
+        color: white;
+    }
+}
+
+@media(max-width: 1201px) {
+    .container {
+        max-width: 992px;
+    }
+    .pictures {
+        padding-left: 30px;
+        &__image {
+            grid-template-columns: 180px 180px 180px;
+        }
+        &__block {
+            img {
+                width: 266px;
+            }
+        }
+        &__box {
+            width: 227px;
+            height: 234px;
+        }
+    }
+}
+
+@media(max-width: 992px) {
+    .container {
+        max-width: 768px;
+    }
+    .pictures {
+        min-height: 800px;
+        padding-left: 0px;
+        &__image {
+            margin-left: 0px;
+            grid-template-columns: 113px 113px 113px;
+            grid-gap: 133px;
+        }
+        &__text {
+            margin-top: 22px;
+            margin-left: 10px;
+            font-size: 22px;
+        }
+        &__box {
+            width: 179px;
+            height: 194px;
+            margin-top: -11px;
+        }
+        &__block {
+            img {
+                width: 231px;
+            }
+        }
+    }
+}
+@media(max-width: 768px) {
+    .container {
+        max-width: 580px;
+    }
+    .pictures {
+        padding-left: 0px;
+        &__image {
+            grid-template-columns: 115px 115px;
+            grid-gap: 165px;
+            margin-left: 2px;
+        }
+        &__block {
+            img {
+                width: 250px;
+            }
+        }
+        &__box {
+            width: 200px;
+            height: 210px;
+            margin-top: -13px;
+        }
+        &__text {
+            font-size: 25px;
+        }
+    }
+}
+@media(max-width: 576px) {
+    .container {
+        max-width: 420px;
+    }
+    .pictures {
+        min-height: 1200px;
+        &__image {
+            grid-template-columns: 262px;
+            grid-template-rows: 100px 100px 100px 100px 100px 100px;
+            grid-row-gap: 156px;
+            margin-left: 15px;
+            grid-auto-rows: 0px;
+        }
+        &__box {
+            width: 212px;
+            height: 218px;
+        }
+    }
+}

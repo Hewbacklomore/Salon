@@ -1,0 +1,48 @@
+.calculating {
+    background: #111111;
+    min-height: 700px;
+    &__gender {
+        padding: 80px;
+    }
+    &__title {
+        text-align: center;
+        font-size: 24px;
+        color: white;
+        &_pretitle {
+            margin-top: 50px;
+            margin-bottom: 30px;
+        }
+    }
+    &__box {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    &__input {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 30px;
+        input {
+            width: 220px;
+            height: 40px;
+            background-color: #CDAA7D;
+            opacity: 0.5;
+        }
+    }
+    &__type {
+        display: flex;
+        justify-content: space-around;
+    }
+    &__result {
+        margin-top: 60px;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        span {
+            margin-top: 60px;
+        }
+    }
+    &__activeclass {
+        background-color: #250303;
+    }
+}

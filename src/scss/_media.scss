@@ -1,0 +1,307 @@
+@media(max-width: 1201px) {
+    .container {
+        max-width: 900px;
+    }
+    .header {
+        &__image {
+            width: 70%;
+        }
+        &__menu {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            margin-left: 88px;
+            width: 593px;
+            li {
+                margin-right: 30px;
+            }
+        }
+        &__instagram {
+            position: absolute;
+            left: 104%;
+        }
+        &__icon {
+            top: 22px;
+            left: 54%;
+            width: 5%;
+        }
+        &__text {
+            margin-top: 130px;
+            text-align: center;
+            width: 189px;
+        }
+        &__hamburger {
+            right: 2%;
+            height: 40px;
+            width: 36px;
+        }
+        &__title {
+            font-size: 65px;
+        }
+        &__contacts {
+            left: 74%;
+        }
+        &__contact {
+            font-size: 23px;
+        }
+        &__phone {
+            font-size: 16px;
+        }
+        &__phone1 {
+            font-size: 16px;
+        }
+        .divider {
+            &__header {
+                width: 653px;
+                margin-left: 30px;
+            }
+        }
+    }
+}
+@media (max-width: 992px) {
+    .container {
+        max-width: 768px;
+    }
+    .header {
+        &__title {
+            font-size: 58px;
+        }
+        &__image {
+            width: 73%;
+        }
+        &__text {
+            position: absolute;
+            left: 74%;
+            font-size: 15px;
+        }
+        &__text {
+            margin-top: 174px;
+            font-size: 13px;
+        }
+        &__menu {
+            width: 505px;
+            margin-left: 50px;
+            li {
+                margin-right: 19px;
+                font-size: 16px;
+            }
+        }
+        &__contacts {
+            width: 180px;
+            left: 76%;
+        }
+        &__adress {
+            font-size: 12px;
+        }
+        &__contact {
+            font-size: 21px;
+        }
+        &__icon {
+            top: 25px;
+            left: 53%;
+        }
+        .divider {
+            &__header {
+                width: 519px;
+                margin-left: 30px;
+            }
+        }
+        &__instagram {
+            width: 22px;
+            height: 22px;
+            margin-left: 0px;
+            left: 102%;
+            div {
+                width: 10px;
+                height: 10px;
+            }
+        }
+        &__worktext {
+            font-size: 20px;
+        }
+        &__phone {
+            font-size: 14px;
+        }
+        &__phone1 {
+            font-size: 14px;
+        }
+        &__worktime {
+            font-size: 14px;
+        }
+        &__secondtime {
+            font-size: 14px;
+        }
+    }
+    #first {
+        margin-right: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 580px;
+    }
+    .header {
+        &__title {
+            font-size: 40px;
+        }
+        &__text {
+            font-size: 12px;
+            left: 70%;
+            width: 166px;
+        }
+        &__contacts {
+            width: 120px;
+        }
+        &__contact {
+            font-size: 19px;
+        }
+        &__phone {
+            font-size: 13px;
+        }
+        &__phone1 {
+            font-size: 13px;
+        }
+        &__workhours {
+            width: 111px;
+        }
+        &__worktext {
+            font-size: 19px;
+        }
+        &__worktime {
+            font-size: 13px;
+        }
+        &__secondtime {
+            font-size: 13px;
+        }
+        &__image {
+            width: 70%;
+        }
+        &__menu {
+            width: 292px;
+            margin-left: 65px;
+            li {
+                margin-right: 14px;
+                font-size: 13px;
+            }
+        }
+        &__icon {
+            width: 4%;
+            top: 31px;
+            left: 50%;
+        }
+        &__instagram {
+            left: 118%;
+            width: 20px;
+            height: 20px;
+            div {
+                width: 9px;
+                height: 9px;
+            }
+        }
+        &__hamburger {
+            height: 0px;
+            width: 27px;
+            top: 29px;
+            div {
+                border: 1px solid #fff;
+            }
+        }
+        .divider {
+            &__header {
+                width: 390px;
+                margin-left: 5px;
+            }
+        }
+    }
+        #first {
+            margin-right: 57px;
+        }
+}
+
+@media(max-width: 576px) {
+    .container {
+        max-width: 420px;
+    }
+    .header {
+        &__image {
+            width: 66%;
+        }
+        &__menu {
+            display: flex;
+            flex-wrap: wrap;
+            width: 226px;
+            margin-left: 0px;
+            margin-bottom: 165px;
+            li {
+                margin-right: 29px;
+            }
+        }
+        &__title {
+            font-size: 27px;
+        }
+        &__icon {
+            display: none;
+        }
+        .divider {
+            display: none;
+        }
+        &__instagram {
+            padding: 3px;
+            left: 99%;
+            width: 18px;
+            height: 18px;
+            div {
+                width: 8px;
+                height: 8px;
+            }
+        }
+        &__hamburger {
+            width: 21px;
+            opacity: 0.6;
+        }
+        &__text {
+            width: 100px;
+            left: 67%;
+            font-size: 11px;
+        }
+        &__contacts {
+            width: 68px;
+            left: 71%;
+            bottom: 26%;
+        }
+        &__contact {
+            font-size: 18px;
+        }
+        &__phone {
+            font-size: 10px;
+        }
+        &__phone1 {
+            font-size: 10px;
+        }
+        &__workhours {
+            width: 90px;
+            bottom: 2%;
+        }
+        &__worktext {
+            font-size: 16px;
+        }
+        &__worktime {
+            font-size: 10px;
+        }
+        &__secondtime {
+            font-size: 10px;
+        }
+        &__scroll {
+            width: 155px;
+            &_text {
+                font-size: 16px;
+            }
+            &_mouse {
+                width: 17px;
+                height: 25px;
+            }
+        }
+    }
+}
+

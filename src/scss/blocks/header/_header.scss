@@ -1,0 +1,155 @@
+.header {
+    height: 800px;
+    background: #111111;
+    position: relative;
+    &__image {
+        position: absolute;
+        left: 0px;
+        background: url(../img/bgc.png) left 27% center/cover no-repeat;
+        height: 800px;
+        width: 76%;
+    }
+    &__icon {
+        position: absolute;
+        top: 19px;
+        left: 56%;
+    }
+    &__instagram {
+        width: 24px;
+        height: 24px;
+        margin-right: 90px;
+        border: 2px solid #FFFFFF;
+        border-radius: 30%;
+        padding: 4px;
+        div {
+            width: 12px;
+            height: 12px;
+            border: 2px solid #FFFFFF;
+            border-radius: 38%;
+        }
+    }
+    &__menu {
+        width: 93%;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 0px;
+        margin-top: 30px;
+        margin-right: 0px;
+        list-style-type: none;
+        li {
+            font-size: 18px;
+            color: #FFFFFF;
+             margin-right: 70px; 
+        }
+        &_cosmetic {
+            margin-right: 100px;
+        }
+    }
+    &__title {
+        font-size: 72px;
+        line-height: 120%;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .divider {
+        &__header {
+            width: 960px;
+            margin-left: 65px;
+            margin-bottom: 260px;
+            opacity: 0.5;
+        }
+    }
+    &__scroll {
+        margin-top: 100px;
+        display: flex;
+        flex-direction: row-reverse;
+        width: 180px;
+        &_text {
+            font-size: 18px;
+            color: #FFFFFF;
+        }
+        &_mouse {
+            border: 1px solid #FFFFFF;
+            border-radius: 8px;
+            width: 20px;
+            height: 30px;
+            &-doth {
+                font-size: 10px;
+                color: white;
+            }
+        }
+    }
+    &__text {
+        margin-top: 166px;
+        width: 240px;
+        float: right;
+        font-size: 16px;
+        color: white;
+    }
+    &__contacts {
+        position: absolute;
+        width: 233px;
+        float: right;
+        left: 80%;
+        bottom: 30%;
+    }
+    &__contact {
+        margin-bottom: 25px;
+        font-size: 24px;
+        color: white;
+    }
+    &__phone {
+        font-size: 17px;
+        color: white;
+    }
+    &__phone1 {
+        margin-top: 15px;
+        font-size: 17px;
+        color: white;
+    }
+    &__adress {
+        margin-top: 15px;
+        font-size: 14px;
+        color: white;
+    }
+    &__workhours {
+        position: absolute;
+        left: 106%;
+        bottom: 4%;
+        width: 150px;
+        float: right;
+    }
+    &__worktext {
+        font-weight: 900px;
+        font-size: 24px;
+        line-height: 130%;
+        color: white;
+        margin-bottom: 25px;
+    }
+    &__worktime {
+        font-size: 15px;
+        color: white;
+        margin-bottom: 15px;
+    }
+    &__secondtime {
+        font-size: 15px;
+        color: white;
+    }
+    &__hamburger {
+        position: absolute;
+        top: 3%;
+        right: 18%;
+        width: 50px;
+        height: 50px;
+        opacity: 0.8;
+        cursor: pointer;
+        div {
+            border: 2px solid #FFFFFF;
+            margin-bottom: 6px;
+        }
+    }
+}
+
+#first {
+    margin-right: 130px;
+}

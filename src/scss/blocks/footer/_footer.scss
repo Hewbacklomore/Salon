@@ -1,0 +1,241 @@
+.finish {
+    max-height: 1300px;
+    background: #111111;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    &__img {
+        margin-bottom: 85px;
+        margin-right: 150px;
+    }
+    &__divider {
+        width: 1000px;
+        margin-bottom: 80px;
+        border: 1px solid #FFFFFF;
+        opacity: 0.5;
+        color: white;
+        &_another {
+            margin-top: 80px;
+        }
+    }
+    &__block {
+        width: 1000px;
+        display: flex;
+        align-items: center;
+        padding-right: 7px;
+    }
+    &__contacts {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start; 
+        width: 300px;
+        margin-right: 60px;
+        &_title {
+            margin-left: 21px;
+            margin-bottom: 20px;
+            font-size: 21px;
+            color: white;
+        }
+        a {
+            margin-left: 21px;
+            font-size: 16px;
+            color: white;
+            opacity: 0.8;
+            text-decoration-line: none;
+        }
+        &_adress {
+            margin-top: 15px;
+            font-size: 16px;
+            color: white;
+            opacity: 0.8;
+        }
+    }
+    &__worktime {
+        display: flex;
+        flex-direction: column;
+        margin-right: 115px;
+        margin-bottom: 40px;
+        &_title {
+            margin-left: 1px;
+            margin-bottom: 20px;
+            font-size: 21px;
+            color: white;
+        }
+        &_day {
+            font-size: 16px;
+            color: white;
+            opacity: 0.8;
+            margin-left: 1px;
+        }
+    }
+    &__instagram {
+        margin-bottom: 66px;
+        &_title {
+            margin-bottom: 18px;
+            font-size: 21px;
+            color: white;
+        }
+        &_box {
+            width: 24px;
+            height: 24px;
+            margin-right: 90px;
+            border: 2px solid #FFFFFF;
+            border-radius: 30%;
+            padding: 4px;
+            float: left;
+            div {
+                width: 12px;
+                height: 12px;
+                border: 2px solid #FFFFFF;
+                border-radius: 38%;
+            }
+        }
+    }
+    &__copyright {
+        font-size: 18px;
+        text-align: center;
+        color: white;
+        opacity: 0.5;
+    }
+}
+@media(max-width: 1201px) {
+    .container {
+        max-width: 900px;
+    }
+    .finish {
+        &__block {
+            width: 920px;
+        }
+        &__divider {
+            width: 900px;
+        }
+        &__img {    
+            margin-right: 95px;
+            width: 5%;
+            height: 5%;
+        }
+        &__block{
+            align-items: unset;
+        }
+    }
+}
+@media(max-width: 993px) {
+    .container {
+        max-width: 768px;
+    }
+    .finish {
+        &__img {
+            margin-right: 80px;
+        }
+        &__divider {
+            width: 735px;
+        }
+        &__block {
+            width: 711px;
+        }
+        &__contacts {
+            margin-left: 0px;
+            a {
+                margin-left: 0px;
+                font-size: 14px;
+            }
+            &_title {
+                margin-left: 0px;
+            }
+            &_adress {
+                font-size: 14px;
+            }
+        }
+        &__worktime {
+            margin-right: 85px;
+            width: 225px;
+        }
+        &__instagram {
+            width: 218px;
+            &_title {
+                font-size: 19px;
+            }
+        }
+    }
+}
+@media(max-width: 768px) {
+    .container {
+        max-width: 580px;
+    }
+    .finish {
+        &__divider {
+            width: 535px;
+        }
+        &__block {
+            width: 540px;
+        }
+        &__img {
+            margin-right: 60px;
+            width: 4%;
+            height: 4%;
+        }
+        &__contacts {
+            width: 230px;
+            &_title {
+                font-size: 17px;
+            }
+        }
+        &__worktime {
+            margin-right: 65px;
+            &_title {
+                font-size: 17px;
+            }
+        }
+        &__instagram {
+            &_title {
+                font-size: 17px;
+            }
+        }
+    }
+}
+@media(max-width: 576px) {
+    .container {
+        max-width: 420px;
+    }
+    .finish {
+        &__divider {
+            display: none;
+        }
+        &__block {
+            width: 330px;
+            margin-left: 6px;
+            margin-bottom: 40px;
+            font-size: 16px;
+        }
+        &__img {
+            display: none;
+        }
+        &__contacts {
+            margin-right: 26px;
+            width: 150px;
+            &_adress {
+                font-size: 12px;
+            }
+            a {
+                font-size: 11px;
+            }
+            &_title {
+                font-size: 15px;
+            }
+        }
+        &__worktime {
+            margin-right: 13px;
+            width: 190px;
+            &_day {
+                font-size: 12px;
+            }
+            &_title {
+                font-size: 15px;
+            }
+        }
+        &__instagram {
+            &_title {
+                font-size: 15px;
+            }
+        }
+    }
+}

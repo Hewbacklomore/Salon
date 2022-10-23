@@ -1,0 +1,36 @@
+@import './base.scss';
+
+
+.close {
+    position: absolute;
+    top: -12%;
+    left: 92%;
+    color: white;
+    font-size: 78px;
+    cursor: pointer;
+    opacity: 0.7;
+    &__another {
+        top: -22%;
+        left: 93%;
+        font-size: 51px;
+        color: wheat;
+    }
+}
+
+.button {
+    width: 200px;
+    height: 61px;
+    background-color: #CDAA7D;
+    font-size: 21px
+}
+
+@import './blocks/header/header.scss';
+@import './blocks/options/options.scss';
+@import './blocks/pictures/pictures.scss';
+@import './blocks/modal/modal.scss';
+@import './blocks/thanks/thanks.scss'; 
+@import './blocks/partners/partners.scss';
+@import './blocks/works/works.scss';
+@import './blocks/footer/footer.scss'; 
+@import './blocks/calculating/calculating.scss';   
+@import './media.scss';
